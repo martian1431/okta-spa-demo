@@ -34,7 +34,7 @@ import { ProfileModule } from './profile/profile.module';
 
 const oktaAuth = new OktaAuth({
   issuer: 'https://dev-47160365.okta.com/oauth2/default',
-  clientId: '0oadq0rwcd6ZkBAiE5d7',
+  clientId: '0oad8uvjq1a6saiCe5d7',
   redirectUri: 'http://localhost:4200/login/callback',
 });
 
@@ -68,4 +68,4 @@ const oktaAuth = new OktaAuth({
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
